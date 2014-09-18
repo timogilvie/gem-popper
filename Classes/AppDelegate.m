@@ -137,8 +137,8 @@
     // *** Ad Colony ***
     //[AdColony initAdColonyWithDelegate:self];
     
-    [AdColony configureWithAppID: @"appf243e85f886742f399c79f"
-                         zoneIDs: @[ @"vzcd56d390457c4f049ea7d7" ]
+    [AdColony configureWithAppID: @"app2a555a502fd04148b1"
+                         zoneIDs: @[ @"vzd8edb843cb844553bc" ]
                         delegate: self
                          logging: YES];
 
