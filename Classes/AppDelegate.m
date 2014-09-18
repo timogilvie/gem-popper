@@ -335,6 +335,10 @@
         CrazyPoppersMenuScene *cpls = [CrazyPoppersMenuScene node];
         [[CCDirector sharedDirector] runWithScene:cpls];
     }
+    
+    if ([UIApplication instancesRespondToSelector:@selector(registerUserNotificationSettings:)]) {
+        [[UIApplication sharedApplication] registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert|UIUserNotificationTypeSound categories:nil]];
+    }
 
     return YES;
 }
