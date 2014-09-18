@@ -81,7 +81,7 @@
 #endif
 
 	// Flurry Analytics
-	[Flurry startSession:@"JMP9B4DH55BKP7JBS7MN"];
+	[Flurry startSession:@"QHJS8NVH5722ZDTVBCWC"];
 	[Flurry logEvent:@"Gem Poppers Started"];
     
 	// cocos2d will inherit these values
