@@ -18,7 +18,7 @@
 #import "Appirater.h"
 #import "Chartboost/Chartboost.h"
 
-#define ADMOB_INTERSTITIAL_ID @"ca-app-pub-6457514489984317/2115942839"
+#define ADMOB_INTERSTITIAL_ID @"ca-app-pub-3645174238941701/2546829279"
 
 #define REVMOB_ID @"524965e7b9376aa2ea00005d"
 
