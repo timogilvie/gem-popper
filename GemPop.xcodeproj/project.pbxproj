@@ -11,6 +11,7 @@
 		506EDB88102F4C4000A389B3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 506EDB87102F4C4000A389B3 /* libz.dylib */; };
 		506EDBA5102F4C9F00A389B3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506EDBA4102F4C9F00A389B3 /* AVFoundation.framework */; };
 		50F4144A10692EE7002A0D5E /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F4144510692EE7002A0D5E /* fps_images.png */; };
+		8653303619CC70FF00434B52 /* MobileAppTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8653303519CC70FF00434B52 /* MobileAppTracker.framework */; };
 		BA27BBE117FC76D200E2B7EE /* applauseShort.wav in Resources */ = {isa = PBXBuildFile; fileRef = BA27BBD917FC76D100E2B7EE /* applauseShort.wav */; };
 		BA27BBE217FC76D200E2B7EE /* awh.wav in Resources */ = {isa = PBXBuildFile; fileRef = BA27BBDA17FC76D200E2B7EE /* awh.wav */; };
 		BA27BBE317FC76D200E2B7EE /* boingShort.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA27BBDB17FC76D200E2B7EE /* boingShort.mp3 */; };
@@ -277,6 +278,7 @@
 		507022A2107672FA00393637 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		50F4144510692EE7002A0D5E /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fps_images.png; sourceTree = "<group>"; };
 		50F4144710692EE7002A0D5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8653303519CC70FF00434B52 /* MobileAppTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileAppTracker.framework; sourceTree = "<group>"; };
 		BA27BBD917FC76D100E2B7EE /* applauseShort.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = applauseShort.wav; sourceTree = "<group>"; };
 		BA27BBDA17FC76D200E2B7EE /* awh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = awh.wav; sourceTree = "<group>"; };
 		BA27BBDB17FC76D200E2B7EE /* boingShort.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boingShort.mp3; sourceTree = "<group>"; };
@@ -712,6 +714,7 @@
 				E7471F871622377800F2763E /* AdSupport.framework in Frameworks */,
 				E74E6BE4154594B400761AD2 /* CoreTelephony.framework in Frameworks */,
 				E79E5E5F14FD3AD200614484 /* MessageUI.framework in Frameworks */,
+				8653303619CC70FF00434B52 /* MobileAppTracker.framework in Frameworks */,
 				E7A05CD214BCCCC100F0FDBD /* Security.framework in Frameworks */,
 				BAE930F719C9E08F008E03F7 /* libGoogleAdMobAds.a in Frameworks */,
 				E7A05CCF14BCCC9800F0FDBD /* MobileCoreServices.framework in Frameworks */,
@@ -757,6 +760,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				8653303419CC70EB00434B52 /* MobileAppTracking */,
 				BAE930F919C9E0A0008E03F7 /* Flurry */,
 				BAE9309019C9E08E008E03F7 /* AdColony 2.4.10 */,
 				BAE9309519C9E08E008E03F7 /* applovin-ios-sdk-2.5.3 */,
@@ -918,6 +922,14 @@
 				50F4144710692EE7002A0D5E /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		8653303419CC70EB00434B52 /* MobileAppTracking */ = {
+			isa = PBXGroup;
+			children = (
+				8653303519CC70FF00434B52 /* MobileAppTracker.framework */,
+			);
+			name = MobileAppTracking;
 			sourceTree = "<group>";
 		};
 		BA948D04192436500060FB22 /* Appirater */ = {
@@ -1891,7 +1903,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = "./**";
+				FRAMEWORK_SEARCH_PATHS = (
+					"./**",
+					"$(PROJECT_DIR)",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1931,7 +1946,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = "./**";
+				FRAMEWORK_SEARCH_PATHS = (
+					"./**",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = GemPop_Prefix.pch;
 				GCC_THUMB_SUPPORT = NO;
@@ -2027,7 +2045,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = "./**";
+				FRAMEWORK_SEARCH_PATHS = (
+					"./**",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = GemPop_Prefix.pch;
 				GCC_THUMB_SUPPORT = NO;

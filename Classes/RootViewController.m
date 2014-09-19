@@ -160,6 +160,7 @@
 }
 
 -(void) addAdMobBanner:(CGSize)adSize{
+    return;
     //NSLog(@"adding Admob");
     CGSize winSize = [[CCDirector sharedDirector]winSize];
     // Create a view of the standard size at the bottom of the screen.
