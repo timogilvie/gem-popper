@@ -21,11 +21,16 @@
 #import "ALSdk.h"
 #import "ALInterstitialAd.h"
 #import <MobileAppTracker/MobileAppTracker.h>
+#import <AdSupport/AdSupport.h>
 
 
 @implementation AppDelegate
 
 @synthesize window;
+
+- (void) existingUserInitialize {
+    [MobileAppTracker setExistingUser:YES];
+}
 
 //- (void) applicationDidFinishLaunching:(UIApplication*)application {
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -320,7 +325,9 @@
 		// sync the defaults to disk
 		[[NSUserDefaults standardUserDefaults] registerDefaults:appDefaults];
 		[[NSUserDefaults standardUserDefaults] synchronize];
-	}
+    } else {
+        [self existingUserInitialize];
+    }
 	[[NSUserDefaults standardUserDefaults] setObject:[NSDate date] forKey:dateKey];
 
     // Add Appirater for popping up the rate dialog box
@@ -936,6 +943,13 @@
     [self updateNotifications];
 }
 
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    [MobileAppTracker applicationDidOpenURL:[url absoluteString] sourceApplication:sourceApplication];
+    
+    return YES;
+}
+
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     
     [Appirater setAppId:@"718874694"];
@@ -945,6 +959,7 @@
     [Appirater setTimeBeforeReminding:2];
     [Appirater setDebug:NO];
     [Appirater appLaunched:YES];
+    [MobileAppTracker measureSession];
     
  	[[CCDirector sharedDirector] stopAnimation]; // call this to make sure you don't start a second display link!
 	[[CCDirector sharedDirector] resume];
