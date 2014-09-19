@@ -112,13 +112,18 @@
 	// BUG: This won't work if the EAGLView is not fullscreen
 	///
 	CGRect screenRect = [[UIScreen mainScreen] bounds];
-	CGRect rect;
+	CGRect rect = screenRect;
+    
+    // Bounds are returned correctly oriented in iOS 8
+    if ([[UIDevice currentDevice].systemVersion floatValue] < 8) {
+        if(toInterfaceOrientation == UIInterfaceOrientationPortrait || toInterfaceOrientation == UIInterfaceOrientationPortraitUpsideDown)
+            rect = screenRect;
+        
+        else if(toInterfaceOrientation == UIInterfaceOrientationLandscapeLeft || toInterfaceOrientation == UIInterfaceOrientationLandscapeRight)
+            rect.size = CGSizeMake( screenRect.size.height, screenRect.size.width );
+    }
+
 	
-	if(toInterfaceOrientation == UIInterfaceOrientationPortrait || toInterfaceOrientation == UIInterfaceOrientationPortraitUpsideDown)		
-		rect = screenRect;
-	
-	else if(toInterfaceOrientation == UIInterfaceOrientationLandscapeLeft || toInterfaceOrientation == UIInterfaceOrientationLandscapeRight)
-		rect.size = CGSizeMake( screenRect.size.height, screenRect.size.width );
 	
 	CCDirector *director = [CCDirector sharedDirector];
 	EAGLView *glView = [director openGLView];
