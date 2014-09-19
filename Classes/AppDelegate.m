@@ -20,6 +20,8 @@
 #import "StoreKit/StoreKit.h"
 #import "ALSdk.h"
 #import "ALInterstitialAd.h"
+#import <MobileAppTracker/MobileAppTracker.h>
+
 
 @implementation AppDelegate
 
@@ -83,6 +85,16 @@
 	// Flurry Analytics
 	[Flurry startSession:@"QHJS8NVH5722ZDTVBCWC"];
 	[Flurry logEvent:@"Gem Poppers Started"];
+    
+    // Account Configuration info - must be set
+    [MobileAppTracker initializeWithMATAdvertiserId:@"your_advertiser_ID"
+                                   MATConversionKey:@"your_conversion_key"];
+    
+    // Pass the Apple Identifier for Advertisers (IFA) to MAT; enables accurate 1-to-1 attribution.
+    // REQUIRED for attribution on iOS devices.
+    [MobileAppTracker setAppleAdvertisingIdentifier:[[ASIdentifierManager sharedManager] advertisingIdentifier]
+                         advertisingTrackingEnabled:[[ASIdentifierManager sharedManager] isAdvertisingTrackingEnabled]];
+    
     
 	// cocos2d will inherit these values
     //	[window setUserInteractionEnabled:YES];	

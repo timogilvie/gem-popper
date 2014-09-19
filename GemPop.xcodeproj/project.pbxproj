@@ -89,7 +89,7 @@
 		E73D207416A8A9FA0019C90A /* popperBackground2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7998FE1169CDA7B00F5735F /* popperBackground2.jpg */; };
 		E73D207516A8A9FA0019C90A /* popperBackground3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7998FE2169CDA7B00F5735F /* popperBackground3.jpg */; };
 		E73D207616A8A9FA0019C90A /* popperBackground4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7998FE3169CDA7B00F5735F /* popperBackground4.jpg */; };
-		E7471F871622377800F2763E /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7471F851622370900F2763E /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E7471F871622377800F2763E /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7471F851622370900F2763E /* AdSupport.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		E74AA027151269DE00BC86B6 /* popperBackground1Small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E74AA023151269DE00BC86B6 /* popperBackground1Small.jpg */; };
 		E74AA028151269DE00BC86B6 /* popperBackground2Small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E74AA024151269DE00BC86B6 /* popperBackground2Small.jpg */; };
 		E74AA029151269DE00BC86B6 /* popperBackground3Small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E74AA025151269DE00BC86B6 /* popperBackground3Small.jpg */; };
