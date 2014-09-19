@@ -21,6 +21,7 @@
 #import "Chartboost/Chartboost.h"
 #import "ALSdk.h"
 #import "ALInterstitialAd.h"
+#import <MobileAppTracker/MobileAppTracker.h>
 
 #define kPauseGame	   1
 #define kResumeGame    2
@@ -6422,6 +6423,8 @@
 	}
 }
 
+NSDecimalNumber *currentPrice;
+
 - (void)productsRequest:(SKProductsRequest *)request didReceiveResponse: (SKProductsResponse *)response {
 	
 	SKProduct *product;
@@ -6432,6 +6435,7 @@
 	currentIdentifier = [NSString stringWithFormat:@"%@", product.productIdentifier];
     NSLog(@"Purchase request for: %@", product.productIdentifier);
 	
+    currentPrice = product.price;
 	[request autorelease];
 }
 
@@ -6457,7 +6461,13 @@
 	
     [self recordTransaction: transaction];
     [self provideContent: transaction.payment.productIdentifier];
-    [[SKPaymentQueue defaultQueue] finishTransaction: transaction];	
+    [[SKPaymentQueue defaultQueue] finishTransaction: transaction];
+    
+    MATEventItem *item = [MATEventItem eventItemWithName:transaction.originalTransaction.payment.productIdentifier unitPrice:[currentPrice floatValue] quantity:1];
+    
+    [MobileAppTracker measureAction:@"purchase"
+                         eventItems:@[item]];
+
 }
 
 - (void)restoreTransaction:(SKPaymentTransaction *)transaction {

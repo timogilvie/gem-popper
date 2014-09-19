@@ -14,6 +14,7 @@
 #import "BuyGoldGemsHints.h"
 #import "Chartboost/Chartboost.h"
 #import "Flurry.h"
+#import <MobileAppTracker/MobileAppTracker.h>
 
 #define kSettings 14
 
@@ -1615,6 +1616,8 @@
 	}
 }
 
+NSDecimalNumber *currentPrice;
+
 - (void)productsRequest:(SKProductsRequest *)request didReceiveResponse: (SKProductsResponse *)response {
 	
 	SKProduct *product;
@@ -1631,6 +1634,7 @@
 	[numberFormatter setNumberStyle:NSNumberFormatterCurrencyStyle];
 	[numberFormatter setLocale:product.priceLocale];
 	NSString *formattedPrice = [numberFormatter stringFromNumber:product.price];
+    currentPrice = product.price;
 	NSString *ggString = [NSString stringWithFormat:@"Do you want to buy %@ for %@?",product.localizedTitle, formattedPrice];
 	
 	// populate UI
@@ -1733,7 +1737,13 @@
 	
     [self recordTransaction: transaction];
     [self provideContent: transaction.payment.productIdentifier];
-    [[SKPaymentQueue defaultQueue] finishTransaction: transaction];	
+    [[SKPaymentQueue defaultQueue] finishTransaction: transaction];
+    
+    MATEventItem *item = [MATEventItem eventItemWithName:transaction.originalTransaction.payment.productIdentifier unitPrice:[currentPrice floatValue] quantity:1];
+    
+    [MobileAppTracker measureAction:@"purchase"
+                         eventItems:@[item]];
+
 }
 
 - (void)restoreTransaction:(SKPaymentTransaction *)transaction {
