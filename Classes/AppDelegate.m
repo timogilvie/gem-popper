@@ -92,8 +92,8 @@
 	[Flurry logEvent:@"Gem Poppers Started"];
     
     // Account Configuration info - must be set
-    [MobileAppTracker initializeWithMATAdvertiserId:@"your_advertiser_ID"
-                                   MATConversionKey:@"your_conversion_key"];
+    [MobileAppTracker initializeWithMATAdvertiserId:@"156092"
+                                   MATConversionKey:@"a44965fb55dde5b2d863a5297358cc8d"];
     
     // Pass the Apple Identifier for Advertisers (IFA) to MAT; enables accurate 1-to-1 attribution.
     // REQUIRED for attribution on iOS devices.
