@@ -1,0 +1,1 @@
+../../ThinkGaming/ThinkGaming/ThinkGaming/ThinkGamingLoggingApiAdapter.h

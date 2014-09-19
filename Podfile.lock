@@ -1,0 +1,10 @@
+PODS:
+  - ThinkGaming (1.0.2)
+
+DEPENDENCIES:
+  - ThinkGaming
+
+SPEC CHECKSUMS:
+  ThinkGaming: fd5f4fbd35f78ee5662b976ebc98fc78870dd0a9
+
+COCOAPODS: 0.33.1
