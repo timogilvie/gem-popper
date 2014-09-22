@@ -6463,10 +6463,13 @@ NSDecimalNumber *currentPrice;
     [self provideContent: transaction.payment.productIdentifier];
     [[SKPaymentQueue defaultQueue] finishTransaction: transaction];
     
-    MATEventItem *item = [MATEventItem eventItemWithName:transaction.originalTransaction.payment.productIdentifier unitPrice:[currentPrice floatValue] quantity:1];
-    
-    [MobileAppTracker measureAction:@"purchase"
-                         eventItems:@[item]];
+    if (currentPrice > 0) {
+        MATEventItem *item = [MATEventItem eventItemWithName:transaction.originalTransaction.payment.productIdentifier unitPrice:[currentPrice floatValue] quantity:1];
+        
+        [MobileAppTracker measureAction:@"purchase"
+                             eventItems:@[item]];
+        currentPrice = 0;
+    }
 
 }
 
