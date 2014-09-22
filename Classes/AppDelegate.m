@@ -23,6 +23,7 @@
 #import <MobileAppTracker/MobileAppTracker.h>
 #import <AdSupport/AdSupport.h>
 #import <ThinkGaming/ThinkGamingLogger.h>
+#import <Crashlytics/Crashlytics.h>
 
 
 @implementation AppDelegate
@@ -338,6 +339,8 @@
 
     // Update for new install
     [self newInstallUpdate];
+    
+    [Crashlytics startWithAPIKey:@"7fdf36d50a57078ad1218c126dfa46d31b868960"];
 
     int highestLevel = [[NSUserDefaults standardUserDefaults] integerForKey:@"popper1_highest_level"];
     if (highestLevel <= 1) {
