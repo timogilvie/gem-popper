@@ -22,6 +22,7 @@
 #import "ALInterstitialAd.h"
 #import <MobileAppTracker/MobileAppTracker.h>
 #import <AdSupport/AdSupport.h>
+#import <ThinkGaming/ThinkGamingLogger.h>
 
 
 @implementation AppDelegate
@@ -37,6 +38,8 @@
     
 	// Init the window
 	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    [ThinkGamingLogger startSession:@"65508e25025e155bed9b7561ec027800815c0116c7df30082f396dbb"];
 	
 	// Try to use CADisplayLink director
 	// if it fails (SDK < 3.1) use the default director
@@ -356,7 +359,7 @@
     }
     
     if ([UIApplication instancesRespondToSelector:@selector(registerUserNotificationSettings:)]) {
-        [[UIApplication sharedApplication] registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert|UIUserNotificationTypeSound categories:nil]];
+        [[UIApplication sharedApplication] registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert|UIUserNotificationTypeSound|UIUserNotificationTypeBadge categories:nil]];
     }
 
     return YES;
