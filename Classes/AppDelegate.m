@@ -23,6 +23,7 @@
 #import <MobileAppTracker/MobileAppTracker.h>
 #import <AdSupport/AdSupport.h>
 #import <ThinkGaming/ThinkGamingLogger.h>
+#import "ThinkGamingTrackingSDK.h"
 #import <Crashlytics/Crashlytics.h>
 
 
@@ -41,6 +42,7 @@
 	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     [ThinkGamingLogger startSession:@"65508e25025e155bed9b7561ec027800815c0116c7df30082f396dbb"];
+    [ThinkGamingTrackingSDK startSessionWithDevKey:@"Gh9FZPc97MzUPMSKxbWkRF" appId:@"363478463"];
 	
 	// Try to use CADisplayLink director
 	// if it fails (SDK < 3.1) use the default director
