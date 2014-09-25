@@ -13,7 +13,6 @@
 		50F4144A10692EE7002A0D5E /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F4144510692EE7002A0D5E /* fps_images.png */; };
 		8623D44519D05D3100207677 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8623D44419D05D3100207677 /* Crashlytics.framework */; };
 		8653303619CC70FF00434B52 /* MobileAppTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8653303519CC70FF00434B52 /* MobileAppTracker.framework */; };
-		867031F419D30AFC00D5FD98 /* libThinkGamingTrackingSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 867031F219D30AFC00D5FD98 /* libThinkGamingTrackingSDK.a */; };
 		9D7885490C604AA69DCAEFC2 /* libPods-GemPop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 724813B01DBA4A53AB1CA91E /* libPods-GemPop.a */; };
 		BA27BBE117FC76D200E2B7EE /* applauseShort.wav in Resources */ = {isa = PBXBuildFile; fileRef = BA27BBD917FC76D100E2B7EE /* applauseShort.wav */; };
 		BA27BBE217FC76D200E2B7EE /* awh.wav in Resources */ = {isa = PBXBuildFile; fileRef = BA27BBDA17FC76D200E2B7EE /* awh.wav */; };
@@ -284,9 +283,6 @@
 		724813B01DBA4A53AB1CA91E /* libPods-GemPop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GemPop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8623D44419D05D3100207677 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		8653303519CC70FF00434B52 /* MobileAppTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileAppTracker.framework; sourceTree = "<group>"; };
-		867031F119D30AFC00D5FD98 /* AppsFlyerTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppsFlyerTracker.h; sourceTree = "<group>"; };
-		867031F219D30AFC00D5FD98 /* libThinkGamingTrackingSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libThinkGamingTrackingSDK.a; sourceTree = "<group>"; };
-		867031F319D30AFC00D5FD98 /* ThinkGamingTrackingSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThinkGamingTrackingSDK.h; sourceTree = "<group>"; };
 		BA27BBD917FC76D100E2B7EE /* applauseShort.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = applauseShort.wav; sourceTree = "<group>"; };
 		BA27BBDA17FC76D200E2B7EE /* awh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = awh.wav; sourceTree = "<group>"; };
 		BA27BBDB17FC76D200E2B7EE /* boingShort.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boingShort.mp3; sourceTree = "<group>"; };
@@ -742,7 +738,6 @@
 				DCCBF1B70F6022AE0040855A /* CoreGraphics.framework in Frameworks */,
 				DCCBF1B90F6022AE0040855A /* Foundation.framework in Frameworks */,
 				DCCBF1BB0F6022AE0040855A /* OpenGLES.framework in Frameworks */,
-				867031F419D30AFC00D5FD98 /* libThinkGamingTrackingSDK.a in Frameworks */,
 				DCCBF1BD0F6022AE0040855A /* QuartzCore.framework in Frameworks */,
 				DCCBF1BF0F6022AE0040855A /* UIKit.framework in Frameworks */,
 				DC6640030F83B3EA000B3E49 /* AudioToolbox.framework in Frameworks */,
@@ -959,9 +954,6 @@
 		867031EC19D3099000D5FD98 /* ThinkGaming */ = {
 			isa = PBXGroup;
 			children = (
-				867031F119D30AFC00D5FD98 /* AppsFlyerTracker.h */,
-				867031F219D30AFC00D5FD98 /* libThinkGamingTrackingSDK.a */,
-				867031F319D30AFC00D5FD98 /* ThinkGamingTrackingSDK.h */,
 			);
 			name = ThinkGaming;
 			sourceTree = "<group>";
@@ -2005,6 +1997,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"./**",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Classes",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
@@ -2049,6 +2042,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"./**",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Classes",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
@@ -2149,6 +2143,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"./**",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Classes",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";

@@ -3,5 +3,6 @@
 
 target "GemPop" do
 pod 'ThinkGaming'
+pod 'ThinkGamingAttributionSDK', :path => '/Users/tranqy/projects/thinkgaming/ThinkGamingTrackingSDK'
 end
 

@@ -23,7 +23,7 @@
 #import <MobileAppTracker/MobileAppTracker.h>
 #import <AdSupport/AdSupport.h>
 #import <ThinkGaming/ThinkGamingLogger.h>
-#import "ThinkGamingTrackingSDK.h"
+#import <ThinkGamingAttributionSDK/ThinkGamingTrackingSDK.h>
 #import <Crashlytics/Crashlytics.h>
 
 

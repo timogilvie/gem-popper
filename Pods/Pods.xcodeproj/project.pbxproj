@@ -10,18 +10,151 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>042CDC2A8B944CB48FAE2A7F</key>
+		<key>00FB1CCB9A1944E5B1739FFC</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>39AA5622EB6C4139AF583C34</string>
+				<string>729A9BFA555844BDA9304860</string>
+				<string>82B2AE94F1A44E66BA92929E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>0234BD78C76641D78C02BE0A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-GemPop-ThinkGaming.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0EAABDDAEA6E4F33889910AA</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>90F09EFFC10F4DC8B49F19DC</string>
+				<string>F5CD0FD294F445EF882366AC</string>
+				<string>E9C9DFE812014AE38EAFDC59</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>0F0A487A77024392A529984C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AA23C02561894DADB38632BB</string>
+			<string>56A7FB705D12466D83E95F8D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>080F80604F874AA9A1EDD18E</key>
+		<key>0F8E436A5ADA4DD79619460C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>84D59F70DF694B149CB26D0F</string>
+				<string>1EF6AE80BE394277A1765041</string>
+				<string>71363E8FDF3C43B3B9B07A4D</string>
+				<string>6384BF1EE8394EC5B305FA7F</string>
+				<string>71C4612506354C29A400DDBF</string>
+				<string>117CE5A7D0E2448D9899AC95</string>
+				<string>8E98B126D77F4ABB8FE99BEC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>1056989035DA427482C7417C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9756F21813274C3AA5065BF4</string>
+				<string>FBDCE6D640334056953857E9</string>
+				<string>90685C721C9548FEBD8B2086</string>
+				<string>DA78E6CB76F7424B83DCB9CA</string>
+				<string>56F6BACFF3AD41A991C700AC</string>
+				<string>0F0A487A77024392A529984C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>117CE5A7D0E2448D9899AC95</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6DF0FD55EEED4A39AEF7A928</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>13FDDD0BAF8940AC8743D63B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>7F7A535433724E378942E082</string>
+				<string>4E0FA980D144427892200F87</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>151621864A714CFF855B4CA7</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>D92A30BE1C684B83A669E5F7</string>
+				<string>1D594278900F4412B8A872BE</string>
+				<string>1DEDDDCD58A44B47836861C4</string>
+				<string>85F048D73389423D882F149E</string>
+				<string>A4F07FB0847F448B887D48B6</string>
+				<string>847EC511C08E4639BA2952D3</string>
+				<string>5B87445762844938B280E6C3</string>
+				<string>DDFC6710F7744696800D1C8F</string>
+				<string>19602760F37E4A57B4FBAA31</string>
+				<string>248057CF8AA34A798EAE3A4B</string>
+				<string>6DF0FD55EEED4A39AEF7A928</string>
+				<string>56A7FB705D12466D83E95F8D</string>
+				<string>798B1DA01FD541DCA3674BD0</string>
+				<string>B888FFE63B65425EB82E99A7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>ThinkGaming</string>
+			<key>path</key>
+			<string>ThinkGaming</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>15284EE350CD4AFB9C2FF186</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B5B76A9A6267448D93A4FD79</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -30,7 +163,85 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0C72A5669BD74FC3BB914051</key>
+		<key>19602760F37E4A57B4FBAA31</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>ThinkGamingLogger.m</string>
+			<key>path</key>
+			<string>ThinkGaming/ThinkGaming/ThinkGamingLogger.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1D594278900F4412B8A872BE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EventQueue.h</string>
+			<key>path</key>
+			<string>ThinkGaming/ThinkGaming/EventQueue.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1DEDDDCD58A44B47836861C4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>EventQueue.m</string>
+			<key>path</key>
+			<string>ThinkGaming/ThinkGaming/EventQueue.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1EF6AE80BE394277A1765041</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DAA1F922AD964ED4A90193ED</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>20DD94135851477DA8F8556E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-GemPop-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>232EEE9CA58248AD8A2570BE</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F772EF3407BA466B84A9BB7F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Development Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2450F129212843A28FD2D1DB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -39,98 +250,95 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Pods-GemPop-environment.h</string>
+			<string>Pods-GemPop-ThinkGaming-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>132F6283FD23429FA4A8CEB7</key>
+		<key>248057CF8AA34A798EAE3A4B</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F066B9DF463F4981818B2AF2</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>Distribution</string>
+			<string>ThinkGamingLoggingApiAdapter.h</string>
+			<key>path</key>
+			<string>ThinkGaming/ThinkGaming/ThinkGamingLoggingApiAdapter.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1394FC356B4541BC82F13011</key>
+		<key>27A2EA27FCB14F8ABAB19EF3</key>
 		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>FA9E022607414F70886B42DF</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
 			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>9EFE0FD3C6144537A1899176</string>
-			<key>productRefGroup</key>
-			<string>B721D5D77AD640C69A388D81</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>A7170835384B422F8D6C0ABA</string>
-				<string>E29B3014DD1A412899EEF60F</string>
-			</array>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>SystemConfiguration.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>159F2A08AF53455291787C78</key>
+		<key>29E0D0B1571843CBB34BCEDD</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B4787A715C3A4B60861D1FB7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2AB6BB5ED6CD462ABB832DF5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E2A4C691E00A4D3599241332</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2B8DBAADB259428B9CD73C94</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>BA146D349E894BD9BC38E3CE</string>
+				<string>82D78C059F0D4665B2714808</string>
+				<string>8503C268F07D447BBCC07697</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>30B0C90DA6134430A4040038</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>archive.ar</string>
+			<key>name</key>
+			<string>libAppsFlyerLib.a</string>
+			<key>path</key>
+			<string>ThinkGamingTrackingSDK/libAppsFlyerLib.a</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>32E69B3A04E24094B084C78C</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -186,53 +394,63 @@
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>Release</string>
+			<string>Distribution</string>
 		</dict>
-		<key>194374A8A1CC4B64B74539CC</key>
+		<key>366FA8BEAF9041868729E74C</key>
 		<dict>
+			<key>fileRef</key>
+			<string>B8BB43AB7649499094359B97</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>StoreKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/StoreKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>1B374F1B1842488D81512705</key>
+		<key>378D69DD2A374F5DA974E17F</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>A211929CEF00486BAD7632FF</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>FD3A96EB1A4041D7BD661833</string>
+			<key>remoteInfo</key>
+			<string>Pods-GemPop-ThinkGamingAttributionSDK</string>
+		</dict>
+		<key>39AA5622EB6C4139AF583C34</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>F066B9DF463F4981818B2AF2</string>
+			<string>82299AF81C60412BA921E8B4</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
 				<string>NO</string>
 				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
+				<string>NO</string>
 				<key>DSTROOT</key>
 				<string>/tmp/xcodeproj.dst</string>
 				<key>GCC_C_LANGUAGE_STANDARD</key>
 				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Pods-GemPop-ThinkGaming-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
 				<key>GCC_VERSION</key>
 				<string>com.apple.compilers.llvm.clang.1_0</string>
 				<key>INSTALL_PATH</key>
 				<string>$(BUILT_PRODUCTS_DIR)</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
 				<string>6.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
 				<key>OTHER_LDFLAGS</key>
 				<string></string>
 				<key>PRODUCT_NAME</key>
@@ -243,27 +461,93 @@
 				<string>iphoneos</string>
 				<key>SKIP_INSTALL</key>
 				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
 			</dict>
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>Release</string>
+			<string>Debug</string>
 		</dict>
-		<key>1DD531BE50124EF797FF7D7D</key>
+		<key>3F7835F23B064EC69DF4F5E5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>BE1B939D4D6044758794CF20</string>
+				<string>4677659ABAAA4F0396698A52</string>
+				<string>C6F1480CB7B04A6A90F5AA0D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>44DC8360E4F146C99249979D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E498B67548014349AA249B66</string>
+			<string>C3048D0595C64508BCFF457D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4677659ABAAA4F0396698A52</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6BEE60EF7B7246B0A2FA1628</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4BD9E96BE3194273A949CAAE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-GemPop.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4BEFB49183CB4431BE64E1E9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-GemPop-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4E0FA980D144427892200F87</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9CF3B35C17864D2B8704DB8B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+				<string>-fobjc-arc</string>
 			</dict>
 		</dict>
-		<key>226E5A8845844E30A68E3A33</key>
+		<key>52D0E975AF924531A98C3855</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-GemPop.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>56A7FB705D12466D83E95F8D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -272,147 +556,36 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>ThinkGamingCache.h</string>
+			<string>ThinkGamingStoreKitLogger.h</string>
 			<key>path</key>
-			<string>ThinkGaming/ThinkGaming/ThinkGamingCache.h</string>
+			<string>ThinkGaming/ThinkGaming/ThinkGamingStoreKitLogger.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>231FE06F73084D1B96E74157</key>
+		<key>56D5899340E343CEA6615789</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
+			<key>children</key>
 			<array>
-				<string>7A582BCA122A49BEA2717E14</string>
-				<string>983E361B642C42ECBC9B899E</string>
-				<string>2CB15A0F7B5A4B9E8C2E2E19</string>
-				<string>D875532234B44391A6A96459</string>
-				<string>94D88B270E664DCBABA0BF9D</string>
-				<string>042CDC2A8B944CB48FAE2A7F</string>
+				<string>EA61BFFE671F4464A7DA6118</string>
+				<string>232EEE9CA58248AD8A2570BE</string>
+				<string>2AB6BB5ED6CD462ABB832DF5</string>
+				<string>C3106B4850FC428E9E124125</string>
+				<string>BB640315BC264AF1AF178196</string>
+				<string>15284EE350CD4AFB9C2FF186</string>
 			</array>
 			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>27D75BB4744B4B4B96366F50</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B967A27B2B234645AAEB280E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-GemPop-ThinkGaming-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>29E91918079C40598BB74662</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>677A163CD94649CCB32E57B6</string>
-				<string>E1AE3EA47DF2404C8CF859AA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2B014FBD8A0D462286E65F9A</key>
+		<key>56F6BACFF3AD41A991C700AC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E5131E56C5E940A993E76747</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>2B0B44903D6545F99047B602</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1DD531BE50124EF797FF7D7D</string>
-				<string>78B3F68693EF467A8155A63C</string>
-				<string>2BABAB71BA5744569DD318F3</string>
-				<string>CBD84292BAB741F4A4C0890E</string>
-				<string>3889574744724F38B7CBF88D</string>
-				<string>720F3A2609B444C3A39D1EE8</string>
-				<string>2B014FBD8A0D462286E65F9A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2BABAB71BA5744569DD318F3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>814A120F4A944DF48FC3892C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>2CB15A0F7B5A4B9E8C2E2E19</key>
-		<dict>
-			<key>fileRef</key>
-			<string>226E5A8845844E30A68E3A33</string>
+			<string>248057CF8AA34A798EAE3A4B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>2E91BD5E9E4145AAB1E0B556</key>
+		<key>5B1A81C0374B4EF18F669421</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -420,39 +593,12 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
 			<key>path</key>
-			<string>../Podfile</string>
+			<string>Pods-GemPop-acknowledgements.markdown</string>
 			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>339A2DB5E1A2427BAE121BDB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6E78A2BD20C94C4A91D4FE3B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>34309151C09C42B1825D1266</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AC2E0B84E31C4B71AC563110</string>
-				<string>B967A27B2B234645AAEB280E</string>
-				<string>36C5014773FE41A6BAE12A0B</string>
-				<string>89476F45A2674BE6BDC41108</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>36C5014773FE41A6BAE12A0B</key>
+		<key>5B87445762844938B280E6C3</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -460,15 +606,30 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>ThinkGamingCache.m</string>
 			<key>path</key>
-			<string>Pods-GemPop-ThinkGaming-dummy.m</string>
+			<string>ThinkGaming/ThinkGaming/ThinkGamingCache.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3889574744724F38B7CBF88D</key>
+		<key>5C117D92566745DAB89BBCB0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>30B0C90DA6134430A4040038</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6384BF1EE8394EC5B305FA7F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4359CB5950CD4763978315A0</string>
+			<string>5B87445762844938B280E6C3</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -477,7 +638,7 @@
 				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>3E25BCDE5F024293B231452E</key>
+		<key>6BEE60EF7B7246B0A2FA1628</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>archive.ar</string>
@@ -490,7 +651,7 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>4359CB5950CD4763978315A0</key>
+		<key>6DF0FD55EEED4A39AEF7A928</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -499,71 +660,16 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>ThinkGamingLogger.m</string>
+			<string>ThinkGamingLoggingApiAdapter.m</string>
 			<key>path</key>
-			<string>ThinkGaming/ThinkGaming/ThinkGamingLogger.m</string>
+			<string>ThinkGaming/ThinkGaming/ThinkGamingLoggingApiAdapter.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>490CA60E12EC48C7A3EE7466</key>
+		<key>71363E8FDF3C43B3B9B07A4D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>BDBA14D0C89447ED97AC1B3A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5F8261BFADEF4377A1841637</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>1394FC356B4541BC82F13011</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>E29B3014DD1A412899EEF60F</string>
-			<key>remoteInfo</key>
-			<string>Pods-GemPop-ThinkGaming</string>
-		</dict>
-		<key>677A163CD94649CCB32E57B6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BDBA14D0C89447ED97AC1B3A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6E78A2BD20C94C4A91D4FE3B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>SystemConfiguration.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>7075900BDFC24DEE969B043C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>89193EB1968F40078AE1EF67</string>
-				<string>779E152FFE004E0A8F699B37</string>
-				<string>27D75BB4744B4B4B96366F50</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>720F3A2609B444C3A39D1EE8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CBD093B9B31547F98725C6C6</string>
+			<string>A4F07FB0847F448B887D48B6</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -572,10 +678,22 @@
 				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>779E152FFE004E0A8F699B37</key>
+		<key>71C4612506354C29A400DDBF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>19602760F37E4A57B4FBAA31</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>729A9BFA555844BDA9304860</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>B967A27B2B234645AAEB280E</string>
+			<string>82299AF81C60412BA921E8B4</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -624,21 +742,399 @@
 			<key>name</key>
 			<string>Distribution</string>
 		</dict>
-		<key>78B3F68693EF467A8155A63C</key>
+		<key>798B1DA01FD541DCA3674BD0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>ThinkGamingStoreKitLogger.m</string>
+			<key>path</key>
+			<string>ThinkGaming/ThinkGaming/ThinkGamingStoreKitLogger.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>79AAB9E3D87247FB9663C1E3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>366FA8BEAF9041868729E74C</string>
+				<string>44DC8360E4F146C99249979D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7F7A535433724E378942E082</key>
 		<dict>
 			<key>fileRef</key>
-			<string>36C5014773FE41A6BAE12A0B</string>
+			<string>C45E960A4FF74C7AB8EEF8E1</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>7A582BCA122A49BEA2717E14</key>
+		<key>82299AF81C60412BA921E8B4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-GemPop-ThinkGaming-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>82B2AE94F1A44E66BA92929E</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>82299AF81C60412BA921E8B4</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Pods-GemPop-ThinkGaming-prefix.pch</string>
+				<key>GCC_VERSION</key>
+				<string>com.apple.compilers.llvm.clang.1_0</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>82D78C059F0D4665B2714808</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>4BD9E96BE3194273A949CAAE</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_VERSION</key>
+				<string>com.apple.compilers.llvm.clang.1_0</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Distribution</string>
+		</dict>
+		<key>833B7A3799A342ADBFED9503</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>DA884D35EE8C4E1C978CAAD8</string>
+			<key>targetProxy</key>
+			<string>FF4E552ED1BC434E8409131C</string>
+		</dict>
+		<key>847EC511C08E4639BA2952D3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ThinkGamingCache.h</string>
+			<key>path</key>
+			<string>ThinkGaming/ThinkGaming/ThinkGamingCache.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84D59F70DF694B149CB26D0F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B76B53945F8C409FAA228820</string>
+			<string>1DEDDDCD58A44B47836861C4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>84F865013B4844E7A6FA6FF0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-GemPop-ThinkGamingAttributionSDK.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8503C268F07D447BBCC07697</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>4BD9E96BE3194273A949CAAE</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_VERSION</key>
+				<string>com.apple.compilers.llvm.clang.1_0</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>85F048D73389423D882F149E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>TG_Reachability.h</string>
+			<key>path</key>
+			<string>ThinkGaming/ThinkGaming/TG_Reachabilty/TG_Reachability.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8E98B126D77F4ABB8FE99BEC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>798B1DA01FD541DCA3674BD0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>901263A48AC74371B113A9C6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-GemPop-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>902100E62EA54C58ABD19165</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>CC20428EBA8E4152A44884FF</string>
+				<string>32E69B3A04E24094B084C78C</string>
+				<string>E94F7743230B47A1BA5657A2</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>90685C721C9548FEBD8B2086</key>
+		<dict>
+			<key>fileRef</key>
+			<string>847EC511C08E4639BA2952D3</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>814A120F4A944DF48FC3892C</key>
+		<key>90F09EFFC10F4DC8B49F19DC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F56261AA36FB48229B4B5328</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9511B7F721EA45C186A549DC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>StoreKit.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/StoreKit.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>9756F21813274C3AA5065BF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1D594278900F4412B8A872BE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9CF3B35C17864D2B8704DB8B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>ThinkGamingTrackingSDK.m</string>
+			<key>path</key>
+			<string>ThinkGamingTrackingSDK/ThinkGamingTrackingSDK.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A211929CEF00486BAD7632FF</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>902100E62EA54C58ABD19165</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>56D5899340E343CEA6615789</string>
+			<key>productRefGroup</key>
+			<string>BB640315BC264AF1AF178196</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>F9E31F91B516426BB24CACFE</string>
+				<string>DA884D35EE8C4E1C978CAAD8</string>
+				<string>FD3A96EB1A4041D7BD661833</string>
+			</array>
+		</dict>
+		<key>A4F07FB0847F448B887D48B6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -653,23 +1149,168 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>841C9A7EB6594C5EA97FF8BB</key>
+		<key>A96828F5E9F1459C914C7447</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BFFD4C7C58134787B3E37A17</string>
-			</array>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>DA884D35EE8C4E1C978CAAD8</string>
+			<key>targetProxy</key>
+			<string>F8DA5B16C303492A956C0169</string>
 		</dict>
-		<key>89193EB1968F40078AE1EF67</key>
+		<key>AABE2F8C696D4143BD4FB720</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>B967A27B2B234645AAEB280E</string>
+			<string>BA069E4DC1FD497B8EA60658</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Pods-GemPop-ThinkGamingAttributionSDK-prefix.pch</string>
+				<key>GCC_VERSION</key>
+				<string>com.apple.compilers.llvm.clang.1_0</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>B3C88023669544988F6D5797</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-GemPop-ThinkGamingAttributionSDK.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>B4787A715C3A4B60861D1FB7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F56261AA36FB48229B4B5328</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B4DE6E7A036447DA8C726EBB</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>CE8680FD96C444108D1ACABC</string>
+				<string>E470064C3E8C447C9F5B4581</string>
+				<string>AABE2F8C696D4143BD4FB720</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>B5B76A9A6267448D93A4FD79</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4BD9E96BE3194273A949CAAE</string>
+				<string>5B1A81C0374B4EF18F669421</string>
+				<string>901263A48AC74371B113A9C6</string>
+				<string>20DD94135851477DA8F8556E</string>
+				<string>C3E2A12EA8AF427BBF2F639B</string>
+				<string>4BEFB49183CB4431BE64E1E9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-GemPop</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B888FFE63B65425EB82E99A7</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0234BD78C76641D78C02BE0A</string>
+				<string>82299AF81C60412BA921E8B4</string>
+				<string>DAA1F922AD964ED4A90193ED</string>
+				<string>2450F129212843A28FD2D1DB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>B8BB43AB7649499094359B97</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>AppsFlyerTracker.h</string>
+			<key>path</key>
+			<string>ThinkGamingTrackingSDK/AppsFlyerTracker.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA069E4DC1FD497B8EA60658</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-GemPop-ThinkGamingAttributionSDK-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA146D349E894BD9BC38E3CE</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>4BD9E96BE3194273A949CAAE</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -686,8 +1327,6 @@
 				<string>0</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-GemPop-ThinkGaming-prefix.pch</string>
 				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
 				<array>
 					<string>DEBUG=1</string>
@@ -717,7 +1356,22 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>89476F45A2674BE6BDC41108</key>
+		<key>BB640315BC264AF1AF178196</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>52D0E975AF924531A98C3855</string>
+				<string>6BEE60EF7B7246B0A2FA1628</string>
+				<string>B3C88023669544988F6D5797</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BD4EC40AB52E4960931CB08D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -726,31 +1380,18 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Pods-GemPop-ThinkGaming-prefix.pch</string>
+			<string>Pods-GemPop-ThinkGamingAttributionSDK-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>94D88B270E664DCBABA0BF9D</key>
+		<key>BE1B939D4D6044758794CF20</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DBB4CD33BFCA46299EBF8286</string>
+			<string>F56261AA36FB48229B4B5328</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>95DAD0A442F948FABB3BA5B5</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-GemPop.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>974D034B14924FCDAC23F6B9</key>
+		<key>C3048D0595C64508BCFF457D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -759,20 +1400,66 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>TG_Reachability.h</string>
+			<string>ThinkGamingTrackingSDK.h</string>
 			<key>path</key>
-			<string>ThinkGaming/ThinkGaming/TG_Reachabilty/TG_Reachability.h</string>
+			<string>ThinkGamingTrackingSDK/ThinkGamingTrackingSDK.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>983E361B642C42ECBC9B899E</key>
+		<key>C3106B4850FC428E9E124125</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>151621864A714CFF855B4CA7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C3E2A12EA8AF427BBF2F639B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-GemPop-environment.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C45E960A4FF74C7AB8EEF8E1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-GemPop-ThinkGamingAttributionSDK-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C48837066A764C5197DF4E95</key>
 		<dict>
 			<key>fileRef</key>
-			<string>974D034B14924FCDAC23F6B9</string>
+			<string>20DD94135851477DA8F8556E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>98E53C3AA0A845ED90E86B09</key>
+		<key>C6F1480CB7B04A6A90F5AA0D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B3C88023669544988F6D5797</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CC20428EBA8E4152A44884FF</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -839,29 +1526,119 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>9DC93941D5084757B4CFE8F6</key>
+		<key>CE8680FD96C444108D1ACABC</key>
 		<dict>
-			<key>fileRef</key>
-			<string>194374A8A1CC4B64B74539CC</string>
+			<key>baseConfigurationReference</key>
+			<string>BA069E4DC1FD497B8EA60658</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Pods-GemPop-ThinkGamingAttributionSDK-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_VERSION</key>
+				<string>com.apple.compilers.llvm.clang.1_0</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
 		</dict>
-		<key>9EFE0FD3C6144537A1899176</key>
+		<key>D7C8C19011054531B61AAE42</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>2E91BD5E9E4145AAB1E0B556</string>
-				<string>E2F0780954554C2DB1BDD222</string>
-				<string>EC18B006FF1846A59B6AD1CB</string>
-				<string>B721D5D77AD640C69A388D81</string>
-				<string>080F80604F874AA9A1EDD18E</string>
+				<string>84F865013B4844E7A6FA6FF0</string>
+				<string>BA069E4DC1FD497B8EA60658</string>
+				<string>C45E960A4FF74C7AB8EEF8E1</string>
+				<string>BD4EC40AB52E4960931CB08D</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>DA78E6CB76F7424B83DCB9CA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DDFC6710F7744696800D1C8F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DA884D35EE8C4E1C978CAAD8</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>00FB1CCB9A1944E5B1739FFC</string>
+			<key>buildPhases</key>
+			<array>
+				<string>0F8E436A5ADA4DD79619460C</string>
+				<string>0EAABDDAEA6E4F33889910AA</string>
+				<string>1056989035DA427482C7417C</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-GemPop-ThinkGaming</string>
+			<key>productName</key>
+			<string>Pods-GemPop-ThinkGaming</string>
+			<key>productReference</key>
+			<string>6BEE60EF7B7246B0A2FA1628</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>DAA1F922AD964ED4A90193ED</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-GemPop-ThinkGaming-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9FF37DA7A7C7428187AFA7D3</key>
+		<key>DDFC6710F7744696800D1C8F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -876,173 +1653,87 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A4575EFDE55E406B8F806013</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-GemPop-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A492C4E6881D41489B3ECF88</key>
+		<key>E2A4C691E00A4D3599241332</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>B76B53945F8C409FAA228820</string>
-				<string>E498B67548014349AA249B66</string>
-				<string>974D034B14924FCDAC23F6B9</string>
-				<string>814A120F4A944DF48FC3892C</string>
-				<string>226E5A8845844E30A68E3A33</string>
-				<string>AA69D2EF76DB4CFBADE2607D</string>
-				<string>9FF37DA7A7C7428187AFA7D3</string>
-				<string>4359CB5950CD4763978315A0</string>
-				<string>DBB4CD33BFCA46299EBF8286</string>
-				<string>CBD093B9B31547F98725C6C6</string>
-				<string>AA23C02561894DADB38632BB</string>
-				<string>E5131E56C5E940A993E76747</string>
-				<string>34309151C09C42B1825D1266</string>
+				<string>F56261AA36FB48229B4B5328</string>
+				<string>9511B7F721EA45C186A549DC</string>
+				<string>27A2EA27FCB14F8ABAB19EF3</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>ThinkGaming</string>
-			<key>path</key>
-			<string>ThinkGaming</string>
+			<string>iOS</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A6D42595E9A8435D860DD7C3</key>
+		<key>E470064C3E8C447C9F5B4581</key>
 		<dict>
-			<key>buildConfigurations</key>
+			<key>baseConfigurationReference</key>
+			<string>BA069E4DC1FD497B8EA60658</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Pods-GemPop-ThinkGamingAttributionSDK-prefix.pch</string>
+				<key>GCC_VERSION</key>
+				<string>com.apple.compilers.llvm.clang.1_0</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Distribution</string>
+		</dict>
+		<key>E5AA112754364A5D9C41ED9E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>F640FB5F0A8F4B1296F6AA4B</string>
-				<string>132F6283FD23429FA4A8CEB7</string>
-				<string>1B374F1B1842488D81512705</string>
+				<string>C48837066A764C5197DF4E95</string>
 			</array>
-			<key>defaultConfigurationIsVisible</key>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
 		</dict>
-		<key>A7170835384B422F8D6C0ABA</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>A6D42595E9A8435D860DD7C3</string>
-			<key>buildPhases</key>
-			<array>
-				<string>841C9A7EB6594C5EA97FF8BB</string>
-				<string>29E91918079C40598BB74662</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>E0A0C3B462964E78901BD3E4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-GemPop</string>
-			<key>productName</key>
-			<string>Pods-GemPop</string>
-			<key>productReference</key>
-			<string>95DAD0A442F948FABB3BA5B5</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>AA23C02561894DADB38632BB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ThinkGamingStoreKitLogger.h</string>
-			<key>path</key>
-			<string>ThinkGaming/ThinkGaming/ThinkGamingStoreKitLogger.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AA69D2EF76DB4CFBADE2607D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ThinkGamingCache.m</string>
-			<key>path</key>
-			<string>ThinkGaming/ThinkGaming/ThinkGamingCache.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AC2E0B84E31C4B71AC563110</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-GemPop-ThinkGaming.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B721D5D77AD640C69A388D81</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>95DAD0A442F948FABB3BA5B5</string>
-				<string>3E25BCDE5F024293B231452E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B76B53945F8C409FAA228820</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EventQueue.h</string>
-			<key>path</key>
-			<string>ThinkGaming/ThinkGaming/EventQueue.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B967A27B2B234645AAEB280E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-GemPop-ThinkGaming-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BCDF40E9C998425B842431D7</key>
+		<key>E94F7743230B47A1BA5657A2</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -1098,24 +1789,42 @@
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>Distribution</string>
+			<string>Release</string>
 		</dict>
-		<key>BD55418063EE49058D1F6832</key>
+		<key>E9C9DFE812014AE38EAFDC59</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>BDBA14D0C89447ED97AC1B3A</string>
-				<string>194374A8A1CC4B64B74539CC</string>
-				<string>6E78A2BD20C94C4A91D4FE3B</string>
-			</array>
+			<key>fileRef</key>
+			<string>27A2EA27FCB14F8ABAB19EF3</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>BDBA14D0C89447ED97AC1B3A</key>
+		<key>EA61BFFE671F4464A7DA6118</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>EE267815C8374D79945601A3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>FD3A96EB1A4041D7BD661833</string>
+			<key>targetProxy</key>
+			<string>378D69DD2A374F5DA974E17F</string>
+		</dict>
+		<key>F56261AA36FB48229B4B5328</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -1128,310 +1837,121 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>BFFD4C7C58134787B3E37A17</key>
+		<key>F5CD0FD294F445EF882366AC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C322AE17FFA341539D1F2529</string>
+			<string>9511B7F721EA45C186A549DC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>C322AE17FFA341539D1F2529</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-GemPop-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CBD093B9B31547F98725C6C6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ThinkGamingLoggingApiAdapter.m</string>
-			<key>path</key>
-			<string>ThinkGaming/ThinkGaming/ThinkGamingLoggingApiAdapter.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CBD84292BAB741F4A4C0890E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AA69D2EF76DB4CFBADE2607D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>D2B9774B86464B48B23DF069</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-GemPop-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D875532234B44391A6A96459</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9FF37DA7A7C7428187AFA7D3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D92A30BE1C684B83A669E5F7</key>
+		<key>F772EF3407BA466B84A9BB7F</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>F066B9DF463F4981818B2AF2</string>
-				<string>A4575EFDE55E406B8F806013</string>
-				<string>D2B9774B86464B48B23DF069</string>
-				<string>C322AE17FFA341539D1F2529</string>
-				<string>0C72A5669BD74FC3BB914051</string>
-				<string>FF1CD278EC194F979053EFCE</string>
+				<string>B8BB43AB7649499094359B97</string>
+				<string>C3048D0595C64508BCFF457D</string>
+				<string>9CF3B35C17864D2B8704DB8B</string>
+				<string>5C117D92566745DAB89BBCB0</string>
+				<string>D7C8C19011054531B61AAE42</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Pods-GemPop</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB4CD33BFCA46299EBF8286</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ThinkGamingLoggingApiAdapter.h</string>
+			<string>ThinkGamingAttributionSDK</string>
 			<key>path</key>
-			<string>ThinkGaming/ThinkGaming/ThinkGamingLoggingApiAdapter.h</string>
+			<string>/Users/tranqy/projects/thinkgaming/ThinkGamingTrackingSDK</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>&lt;absolute&gt;</string>
 		</dict>
-		<key>DFB7F818B5FE4025AA73A31A</key>
+		<key>F8DA5B16C303492A956C0169</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>490CA60E12EC48C7A3EE7466</string>
-				<string>9DC93941D5084757B4CFE8F6</string>
-				<string>339A2DB5E1A2427BAE121BDB</string>
-			</array>
+			<key>containerPortal</key>
+			<string>A211929CEF00486BAD7632FF</string>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>DA884D35EE8C4E1C978CAAD8</string>
+			<key>remoteInfo</key>
+			<string>Pods-GemPop-ThinkGaming</string>
 		</dict>
-		<key>E0A0C3B462964E78901BD3E4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>E29B3014DD1A412899EEF60F</string>
-			<key>targetProxy</key>
-			<string>5F8261BFADEF4377A1841637</string>
-		</dict>
-		<key>E1AE3EA47DF2404C8CF859AA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E25BCDE5F024293B231452E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E29B3014DD1A412899EEF60F</key>
+		<key>F9E31F91B516426BB24CACFE</key>
 		<dict>
 			<key>buildConfigurationList</key>
-			<string>7075900BDFC24DEE969B043C</string>
+			<string>2B8DBAADB259428B9CD73C94</string>
 			<key>buildPhases</key>
 			<array>
-				<string>2B0B44903D6545F99047B602</string>
-				<string>DFB7F818B5FE4025AA73A31A</string>
-				<string>231FE06F73084D1B96E74157</string>
+				<string>E5AA112754364A5D9C41ED9E</string>
+				<string>3F7835F23B064EC69DF4F5E5</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
 			<key>dependencies</key>
-			<array/>
+			<array>
+				<string>A96828F5E9F1459C914C7447</string>
+				<string>EE267815C8374D79945601A3</string>
+			</array>
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
 			<key>name</key>
-			<string>Pods-GemPop-ThinkGaming</string>
+			<string>Pods-GemPop</string>
 			<key>productName</key>
-			<string>Pods-GemPop-ThinkGaming</string>
+			<string>Pods-GemPop</string>
 			<key>productReference</key>
-			<string>3E25BCDE5F024293B231452E</string>
+			<string>52D0E975AF924531A98C3855</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>E2F0780954554C2DB1BDD222</key>
+		<key>FBDCE6D640334056953857E9</key>
 		<dict>
-			<key>children</key>
+			<key>fileRef</key>
+			<string>85F048D73389423D882F149E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FD3A96EB1A4041D7BD661833</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>B4DE6E7A036447DA8C726EBB</string>
+			<key>buildPhases</key>
 			<array>
-				<string>BD55418063EE49058D1F6832</string>
+				<string>13FDDD0BAF8940AC8743D63B</string>
+				<string>29E0D0B1571843CBB34BCEDD</string>
+				<string>79AAB9E3D87247FB9663C1E3</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>833B7A3799A342ADBFED9503</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXNativeTarget</string>
 			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>Pods-GemPop-ThinkGamingAttributionSDK</string>
+			<key>productName</key>
+			<string>Pods-GemPop-ThinkGamingAttributionSDK</string>
+			<key>productReference</key>
+			<string>B3C88023669544988F6D5797</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>E498B67548014349AA249B66</key>
+		<key>FF4E552ED1BC434E8409131C</key>
 		<dict>
-			<key>includeInIndex</key>
+			<key>containerPortal</key>
+			<string>A211929CEF00486BAD7632FF</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
 			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>EventQueue.m</string>
-			<key>path</key>
-			<string>ThinkGaming/ThinkGaming/EventQueue.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E5131E56C5E940A993E76747</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ThinkGamingStoreKitLogger.m</string>
-			<key>path</key>
-			<string>ThinkGaming/ThinkGaming/ThinkGamingStoreKitLogger.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EC18B006FF1846A59B6AD1CB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A492C4E6881D41489B3ECF88</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F066B9DF463F4981818B2AF2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-GemPop.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F640FB5F0A8F4B1296F6AA4B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F066B9DF463F4981818B2AF2</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FA9E022607414F70886B42DF</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>98E53C3AA0A845ED90E86B09</string>
-				<string>BCDF40E9C998425B842431D7</string>
-				<string>159F2A08AF53455291787C78</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FF1CD278EC194F979053EFCE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-GemPop-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<key>remoteGlobalIDString</key>
+			<string>DA884D35EE8C4E1C978CAAD8</string>
+			<key>remoteInfo</key>
+			<string>Pods-GemPop-ThinkGaming</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
-	<string>1394FC356B4541BC82F13011</string>
+	<string>A211929CEF00486BAD7632FF</string>
 </dict>
 </plist>

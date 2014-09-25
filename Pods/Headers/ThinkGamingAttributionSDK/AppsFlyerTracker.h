@@ -1,0 +1,1 @@
+../../../../../ThinkGamingTrackingSDK/ThinkGamingTrackingSDK/AppsFlyerTracker.h

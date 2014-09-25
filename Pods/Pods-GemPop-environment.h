@@ -12,3 +12,9 @@
 #define COCOAPODS_VERSION_MINOR_ThinkGaming 0
 #define COCOAPODS_VERSION_PATCH_ThinkGaming 2
 
+// ThinkGamingAttributionSDK
+#define COCOAPODS_POD_AVAILABLE_ThinkGamingAttributionSDK
+#define COCOAPODS_VERSION_MAJOR_ThinkGamingAttributionSDK 1
+#define COCOAPODS_VERSION_MINOR_ThinkGamingAttributionSDK 0
+#define COCOAPODS_VERSION_PATCH_ThinkGamingAttributionSDK 3
+

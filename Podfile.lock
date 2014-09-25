@@ -1,10 +1,18 @@
 PODS:
   - ThinkGaming (1.0.2)
+  - ThinkGamingAttributionSDK (1.0.3):
+    - ThinkGaming
 
 DEPENDENCIES:
   - ThinkGaming
+  - ThinkGamingAttributionSDK (from `/Users/tranqy/projects/thinkgaming/ThinkGamingTrackingSDK`)
+
+EXTERNAL SOURCES:
+  ThinkGamingAttributionSDK:
+    :path: /Users/tranqy/projects/thinkgaming/ThinkGamingTrackingSDK
 
 SPEC CHECKSUMS:
   ThinkGaming: fd5f4fbd35f78ee5662b976ebc98fc78870dd0a9
+  ThinkGamingAttributionSDK: a700706a2a19b6a954d89c434eb37c411e11748c
 
 COCOAPODS: 0.33.1
